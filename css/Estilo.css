@@ -1,0 +1,56 @@
+:root {
+    --first-color: #007BDF;
+    --second-color: #00CBFF;
+    --third-color: #FF3C32;
+    --border-color: green;
+    --text-color: #53575A;
+    --body-bg: #FAFDFF;
+    --font-main: sans-serif;
+    --font-size: 18px;
+   }
+
+* {box-sizing: border-box;}
+
+.wrapper {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+grid-template-rows: 300px 300px 300px 300px;
+grid-gap:16px;
+
+}
+
+.Item {
+border: 2px solid blue;
+border-radius: 8px;
+background-color: var(--first-color);
+padding: 0.5em;
+}
+
+
+.img{
+ width:100%;
+ height:82%;
+ border-radius: 10px;
+ object-fit:cover;
+}
+
+.Item:hover{
+background:pink;
+}
+
+
+
+.form-Traduccion {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 5px;
+      
+}
+
+.respuesta{
+font-size:var(--font-size);
+}
+    
+/*     flex-direction: column;*/
+ 
+
