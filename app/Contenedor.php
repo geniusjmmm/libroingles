@@ -23,7 +23,7 @@
    <img class="img" src="./../img/Firestation.jpg"> 
    <form class="form-Traduccion">
          <input type="text" Id="Input2"  class= "respuesta" placeholder= "¿Que es?">
-         <input  type="button" Id="Button2" Class="revisar" value="Traducir">
+         <input  type="button" Id="Button2" Class="revisar" value="Revisar">
        </form>
  </div>
  
